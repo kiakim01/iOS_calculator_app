@@ -76,7 +76,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGO-4U-ydL">
                                                 <rect key="frame" x="280.5" y="0.0" width="93.5" height="74"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="/">
+                                                <buttonConfiguration key="configuration" style="plain" title="÷">
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
@@ -156,6 +156,9 @@
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="fiveTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ogh-I3-GCx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qr-mR-gR5">
                                                 <rect key="frame" x="187" y="0.0" width="93.5" height="74"/>
@@ -164,6 +167,9 @@
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sixTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Soz-cd-ThI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfo-Ik-jcf">
                                                 <rect key="frame" x="280.5" y="0.0" width="93.5" height="74"/>
@@ -188,6 +194,9 @@
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sevenTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qzo-w0-3bC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seI-Wk-8TU">
                                                 <rect key="frame" x="93.5" y="0.0" width="93.5" height="74"/>
@@ -196,6 +205,9 @@
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="eightTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="93t-Mq-9F6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vs5-Fh-KdX">
                                                 <rect key="frame" x="187" y="0.0" width="93.5" height="74"/>
@@ -204,6 +216,9 @@
                                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="50"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="nineTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dnu-9E-BHo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdn-ey-uQ9">
                                                 <rect key="frame" x="280.5" y="0.0" width="93.5" height="74"/>
@@ -213,7 +228,7 @@
                                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="zeroTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGi-kQ-GbF"/>
+                                                    <action selector="zeroTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uYX-dg-a5I"/>
                                                 </connections>
                                             </button>
                                         </subviews>
